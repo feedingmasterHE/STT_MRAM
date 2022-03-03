@@ -1,0 +1,4 @@
+03.03.2022
+1.To simulate the behaviour that our processor and flipflop is based on the non-volatile Flipflop to store  
+  the state of the processor and to reactivate the system with the stored state -> Nonvolatile_FF.v
+2.control logic. 

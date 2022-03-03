@@ -1,0 +1,6 @@
+personal access token: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 
+Masterarbeitsvorgang
+18.02.2022
+ 1. Basis Flipflop und Kontroller zu realisieren
+ 2. VTR noch einzuarbeiten
+ 3. parallel checkpointing algo zu suchen
