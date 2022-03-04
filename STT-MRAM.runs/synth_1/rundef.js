@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log nonvolatile_ff.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source nonvolatile_ff.tcl" );
+         "-log wr_rd_controller.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source wr_rd_controller.tcl" );
 
 
 

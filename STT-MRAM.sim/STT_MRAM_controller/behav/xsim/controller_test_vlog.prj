@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../STT-MRAM.srcs/sources_1/new/wr_rd_controller.v" \
+"../../../../STT-MRAM.srcs/sources_1/new/Nonvolatile_FF.v" \
+"../../../../STT-MRAM.srcs/STT_MRAM_controller/new/controller_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
