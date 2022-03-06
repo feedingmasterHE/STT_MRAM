@@ -1,0 +1,12 @@
+
+{ 
+    crc :  4769393043456500043  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto bd2e0a8d872040a2bd73914c2c5626bd --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nonvolatile_ff_test_behav xil_defaultlib.nonvolatile_ff_test xil_defaultlib.glbl" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:41:02" , 
+    linkCmd : "D:\\vivado\\Vivado\\2018.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/nonvolatile_ff_test_behav/xsimk.exe\"   \"xsim.dir/nonvolatile_ff_test_behav/obj/xsim_0.win64.obj\" \"xsim.dir/nonvolatile_ff_test_behav/obj/xsim_1.win64.obj\" \"D:\\vivado\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"D:\\vivado\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

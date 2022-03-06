@@ -51,7 +51,7 @@ module nonvolatile_ff(
         if(!rst) 
             q <= 1'b0;
         else begin
-            if(read_mtj == 1)
+            if(read_mtj)
                 q <= store_MTJ;
             else
                 q <= d;
