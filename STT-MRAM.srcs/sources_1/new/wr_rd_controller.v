@@ -30,7 +30,7 @@ module wr_rd_controller(
     reg[9:0] signal_gen_counter;
     reg wr_mtj;
     reg rd_mtj;
-    //counting process for the counter 
+    //counting process for the counter signal  
     always@(posedge clk, negedge rst) begin
         if(!rst)
             signal_gen_counter <= 10'b0;

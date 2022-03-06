@@ -1,19 +1,19 @@
 personal access token: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 
 Masterarbeitsvorgang
-18.02.2022
+18.02.2022 - 06.03.2022
  1. Basis Flipflop und Kontroller zu realisieren
  2. VTR noch einzuarbeiten
  3. parallel checkpointing algo zu suchen
 
-03.03.2022
- To simulate the behaviour that our processor and flipflop is based on the non-volatile Flipflop to store  
- the state of the processor and to reactivate the system with the stored state -> Nonvolatile_FF.v 
+  03.03.2022
+   To simulate the behaviour that our processor and flipflop is based on the non-volatile Flipflop to store  
+   the state of the processor and to reactivate the system with the stored state -> Nonvolatile_FF.v 
 
-04.03.2022
- The controller of the write and read signals for the non-volatile Flipflop has been already finished.
- for every 400 cycles to generate the write signal for FF and every 500 cycles to generate the read signal 
- for FF.
+  04.03.2022
+   The controller of the write and read signals for the non-volatile Flipflop has been already finished.
+   for every 400 cycles to generate the write signal for FF and every 500 cycles to generate the read signal 
+   for FF.
  
-05.03.2022
- The structure of the blif file has been already read through. And have found a library named "libblifparse".
- Tomorrow I wanna try a bit to exchange the subckt from Non-volatile-FF into the blink.blif  
+  05.03.2022
+   The structure of the blif file has been already read through. And have found a library named "libblifparse".
+   Tomorrow I wanna try a bit to exchange the subckt from Non-volatile-FF into the blink.blif  
