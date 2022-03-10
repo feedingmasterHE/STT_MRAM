@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Uqdxz/Desktop/MA/STT-MRAM/STT-MRAM.runs/synth_1'
+HD_PWD='C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log volatile_ff.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source volatile_ff.tcl
+EAStep vivado -log nonvolatile_ff.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source nonvolatile_ff.tcl

@@ -17,3 +17,8 @@ Masterarbeitsvorgang
   05.03.2022
    The structure of the blif file has been already read through. And have found a library named "libblifparse".
    Tomorrow I wanna try a bit to exchange the subckt from Non-volatile-FF into the blink.blif  
+
+08.03.2022
+1.auf netlist bearbeiten.
+2.eigene BLIF datei zu modifizieren
+3.möglichkeit für die Simulation von BLIF zu suchen

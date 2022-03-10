@@ -17,19 +17,26 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param synth.incrementalSynthesisCache C:/Users/Uqdxz/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-16416-DESKTOP-H3BDQA1/incrSyn
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7z020clg484-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/Uqdxz/Desktop/MA/STT-MRAM/STT-MRAM.cache/wt [current_project]
-set_property parent.project_path C:/Users/Uqdxz/Desktop/MA/STT-MRAM/STT-MRAM.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.cache/wt [current_project]
+set_property parent.project_path C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part em.avnet.com:zed:part0:1.4 [current_project]
-set_property ip_output_repo c:/Users/Uqdxz/Desktop/MA/STT-MRAM/STT-MRAM.cache/ip [current_project]
+set_property ip_output_repo c:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_verilog -library xil_defaultlib C:/Users/Uqdxz/Desktop/MA/STT-MRAM/STT-MRAM.srcs/sources_1/new/Nonvolatile_FF.v
+read_verilog -library xil_defaultlib {
+  C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/sources_1/new/wr_rd_controller.v
+  C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/sources_1/new/Nonvolatile_FF.v
+  C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/sources_1/new/volatile_ff.v
+}
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
 # design are intentionally left as such for best results. Dcp files will be

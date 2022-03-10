@@ -46,7 +46,7 @@ module nonvolatile_ff(
     end
     
     
-    //read process
+    //read process in the MTJ corresponding to the singal read_mtj
     always@(posedge clk,negedge rst) begin
         if(!rst) 
             q <= 1'b0;
