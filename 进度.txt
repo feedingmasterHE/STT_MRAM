@@ -22,3 +22,7 @@ Masterarbeitsvorgang
 1.auf netlist bearbeiten.
 2.eigene BLIF datei zu modifizieren
 3.möglichkeit für die Simulation von BLIF zu suchen
+
+ 15.03.2022
+  Have tried to installed the yosys-abc and also tried to use this package to convert the blif into verilog.
+  
