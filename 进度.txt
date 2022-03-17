@@ -26,3 +26,8 @@ Masterarbeitsvorgang
  15.03.2022
   Have tried to installed the yosys-abc and also tried to use this package to convert the blif into verilog.
   
+ 16.03.2022
+  Have found the parser in github to release the blif file into class object and to modify
+  
+ 17.03.2022
+  Use the parser to replace the latch into nonvolatile_ff and modify parser to add submodel into the file
