@@ -31,3 +31,12 @@ Masterarbeitsvorgang
   
  17.03.2022
   Use the parser to replace the latch into nonvolatile_ff and modify parser to add submodel into the file
+  
+ 18.03.2022
+  Have already replace the nonvolatile_ff and modified parser. have found that with abc we could 
+  output the verilog file corresponding the blif file 
+ 
+ 19.03.2022
+  1.try to modify the EArch.xml to check the modified .BLIF file in vpr.
+  2.add the nonvolatile_ff into the modified blif
+  3.try to simulate the blif file
