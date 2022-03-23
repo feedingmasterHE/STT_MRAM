@@ -1,0 +1,153 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 2022/03/15 21:07:01
+// Design Name: 
+// Module Name: nonvolatile_blif
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module blink(\blink^clk , \blink^i_reset , \blink^read_mtj , \blink^write_mtj , \blink^o_led );
+  wire \blink^ADD~2-0[0] ;
+  wire \blink^ADD~2-0~dummy_output~0~1 ;
+  wire \blink^ADD~2-1[0] ;
+  wire \blink^ADD~2-1[1] ;
+  wire \blink^ADD~2-2[0] ;
+  wire \blink^ADD~2-2[1] ;
+  wire \blink^ADD~2-3[0] ;
+  wire \blink^ADD~2-3[1] ;
+  wire \blink^ADD~2-4[0] ;
+  wire \blink^ADD~2-4[1] ;
+  wire \blink^ADD~2-5[0] ;
+  wire \blink^ADD~2-5[1] ;
+  input \blink^clk ;
+  wire \blink^clk ;
+  input \blink^i_reset ;
+  wire \blink^i_reset ;
+  output \blink^o_led ;
+  wire \blink^o_led ;
+  wire \blink^r_counter~0_FF ;
+  wire \blink^r_counter~1_FF ;
+  wire \blink^r_counter~2_FF ;
+  wire \blink^r_counter~3_FF ;
+  wire \blink^r_counter~4_FF ;
+  input \blink^read_mtj ;
+  wire \blink^read_mtj ;
+  wire \blink^reset ;
+  input \blink^write_mtj ;
+  wire \blink^write_mtj ;
+  wire gnd;
+  wire n19;
+  wire n24;
+  wire n29;
+  wire n34;
+  wire n39;
+  wire unconn;
+  wire vcc;
+  nonvolatile_ff _00_ (
+    .clk(\blink^clk ),
+    .d(n19),
+    .q(\blink^r_counter~0_FF ),
+    .read_mtj(\blink^read_mtj ),
+    .rst(\blink^reset ),
+    .write_mtj(\blink^write_mtj )
+  );
+  adder _01_ (
+    .\a[0] (\blink^r_counter~4_FF ),
+    .\b[0] (gnd),
+    .\cin[0] (\blink^ADD~2-4[0] ),
+    .\cout[0] (\blink^ADD~2-5[0] ),
+    .\sumout[0] (\blink^ADD~2-5[1] )
+  );
+  adder _02_ (
+    .\a[0] (vcc),
+    .\b[0] (gnd),
+    .\cin[0] (unconn),
+    .\cout[0] (\blink^ADD~2-0[0] ),
+    .\sumout[0] (\blink^ADD~2-0~dummy_output~0~1 )
+  );
+  nonvolatile_ff _03_ (
+    .clk(\blink^clk ),
+    .d(n24),
+    .q(\blink^r_counter~4_FF ),
+    .read_mtj(\blink^read_mtj ),
+    .rst(\blink^reset ),
+    .write_mtj(\blink^write_mtj )
+  );
+  nonvolatile_ff _04_ (
+    .clk(\blink^clk ),
+    .d(n29),
+    .q(\blink^r_counter~3_FF ),
+    .read_mtj(\blink^read_mtj ),
+    .rst(\blink^reset ),
+    .write_mtj(\blink^write_mtj )
+  );
+  nonvolatile_ff _05_ (
+    .clk(\blink^clk ),
+    .d(n34),
+    .q(\blink^r_counter~2_FF ),
+    .read_mtj(\blink^read_mtj ),
+    .rst(\blink^reset ),
+    .write_mtj(\blink^write_mtj )
+  );
+  nonvolatile_ff _06_ (
+    .clk(\blink^clk ),
+    .d(n39),
+    .q(\blink^r_counter~1_FF ),
+    .read_mtj(\blink^read_mtj ),
+    .rst(\blink^reset ),
+    .write_mtj(\blink^write_mtj )
+  );
+  adder _07_ (
+    .\a[0] (\blink^r_counter~0_FF ),
+    .\b[0] (vcc),
+    .\cin[0] (\blink^ADD~2-0[0] ),
+    .\cout[0] (\blink^ADD~2-1[0] ),
+    .\sumout[0] (\blink^ADD~2-1[1] )
+  );
+  adder _08_ (
+    .\a[0] (\blink^r_counter~1_FF ),
+    .\b[0] (gnd),
+    .\cin[0] (\blink^ADD~2-1[0] ),
+    .\cout[0] (\blink^ADD~2-2[0] ),
+    .\sumout[0] (\blink^ADD~2-2[1] )
+  );
+  adder _09_ (
+    .\a[0] (\blink^r_counter~2_FF ),
+    .\b[0] (gnd),
+    .\cin[0] (\blink^ADD~2-2[0] ),
+    .\cout[0] (\blink^ADD~2-3[0] ),
+    .\sumout[0] (\blink^ADD~2-3[1] )
+  );
+  adder _10_ (
+    .\a[0] (\blink^r_counter~3_FF ),
+    .\b[0] (gnd),
+    .\cin[0] (\blink^ADD~2-3[0] ),
+    .\cout[0] (\blink^ADD~2-4[0] ),
+    .\sumout[0] (\blink^ADD~2-4[1] )
+  );
+  assign n19 = 4'h4 >> { \blink^ADD~2-1[1] , \blink^i_reset  };
+  assign n24 = 4'h4 >> { \blink^ADD~2-5[1] , \blink^i_reset  };
+  assign n29 = 4'h4 >> { \blink^ADD~2-4[1] , \blink^i_reset  };
+  assign n34 = 4'h4 >> { \blink^ADD~2-3[1] , \blink^i_reset  };
+  assign n39 = 4'h4 >> { \blink^ADD~2-2[1] , \blink^i_reset  };
+  assign \blink^o_led  = 2'h1 >> \blink^r_counter~4_FF ;
+  assign vcc = 1'h1;
+  assign gnd = 1'h0;
+  assign unconn = 1'h0;
+endmodule
+
+
