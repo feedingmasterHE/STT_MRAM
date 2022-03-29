@@ -40,3 +40,13 @@ Masterarbeitsvorgang
   1.try to modify the EArch.xml to check the modified .BLIF file in vpr.
   2.add the nonvolatile_ff into the modified blif
   3.try to simulate the blif file
+
+23.03.2022
+ 1. fpga architechture zu modifizieren, um die nonvolatile anzupassen.
+ 2. noch zu checken, ob die Signale auf richtigen ports anzupassen
+ 3. probieren die Datei in Verilog zu convertieren, um die Funktionalität zu prüfen
+  
+  27.03.2022
+   1. I have already modified the xml architechture file to add <model> into the xml file. define the in/outputs 
+   2. To complete the xml file is to add <pb_type> for the nonvolatile_ff. And to add child <pb_type>, set the setup time
+   3. To complete the interconnects of the nonvolatile_ff, also the <tile> of the 
