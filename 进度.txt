@@ -46,7 +46,11 @@ Masterarbeitsvorgang
  2. noch zu checken, ob die Signale auf richtigen ports anzupassen
  3. probieren die Datei in Verilog zu convertieren, um die Funktionalität zu prüfen
   
-  27.03.2022
+  26-28.03.2022
    1. I have already modified the xml architechture file to add <model> into the xml file. define the in/outputs 
    2. To complete the xml file is to add <pb_type> for the nonvolatile_ff. And to add child <pb_type>, set the setup time
-   3. To complete the interconnects of the nonvolatile_ff, also the <tile> of the 
+   3. To complete the interconnects of the nonvolatile_ff, also the <tile> of the nonvolatile_ff to declare the characteristics
+  
+  29-30.03.2022
+   1. already tried with yosys to convert blif file to the verilog file with small sample of blink.v
+   2. simulated in the vivado ISE and found the difference by replacing the nonvolatile_ff
