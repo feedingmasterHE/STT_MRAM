@@ -32,7 +32,7 @@ module wr_rd_controller(
     reg rd_mtj;
     //counting process for the counter signal  
     always@(posedge clk, negedge rst) begin
-        if(!rst)
+        if(rst)
             signal_gen_counter <= 10'b0;
         else begin
             if(signal_gen_counter < 500)
@@ -45,7 +45,7 @@ module wr_rd_controller(
     
     // generate read/write signal for controlling the Nonvolatile FF corresponding the signal_gen_counter
     always@(posedge clk, negedge rst) begin
-        if(!rst) begin
+        if(rst) begin
             wr_mtj <= 1'b0;
             rd_mtj <= 1'b0;
         end

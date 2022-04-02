@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../STT-MRAM.srcs/sources_1/new/wr_rd_controller.v" \
+"../../../../STT-MRAM.srcs/sources_1/new/Nonvolatile_FF.v" \
+"../../../../STT-MRAM.srcs/sources_1/new/volatile_ff.v" \
+"../../../../../../MA_process/MA_Process/MA_blif_parser/verilog/adder.v" \
+"../../../../../../MA_process/MA_Process/MA_blif_parser/verilog/blink.output.v" \
+"../../../../../../MA_process/MA_Process/MA_blif_parser/verilog/blink.v" \
+"../../../../STT-MRAM.srcs/blink_test/new/test_blink.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
