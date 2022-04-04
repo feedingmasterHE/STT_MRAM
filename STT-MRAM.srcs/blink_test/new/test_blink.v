@@ -7,9 +7,15 @@ module test_blink();
     wire o_led;
     
     
-    wr_rd_controller ctrl(clk,rst,wr,rd);
+    //originale test
+    //blink blink1(clk,rst,o_led);
     
-    blink_new blink0(clk,rst,rd,wr,o_led);
+    //teilweise Ersetzung test   
+    wr_rd_controller ctrl(clk,rst,wr,rd);
+    blink_new3 blink0(clk,rst,rd,wr,o_led);
+    //vollständige Ersetzung test
+    //blink_new blink1(clk,rst,rd,wr,o_led);
+    
     
     initial begin
         clk <= 1'b0; 
@@ -18,8 +24,8 @@ module test_blink();
     
     initial begin
          rst <= 1'b0;
-         #200 rst <= 1'b1;
-         #1000 rst <= 1'b0;
+         #600 rst<= 1'b1;
+         #600 rst<= 1'b0;
     end
     
     

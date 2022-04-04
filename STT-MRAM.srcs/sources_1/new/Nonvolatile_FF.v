@@ -33,7 +33,7 @@ module nonvolatile_ff(
    //assign store_MTJ  = write_mtj ? d : store_MTJ;
     
     //write process in the MTJ corresponding to the signal write_mtj
-    always@(posedge clk,negedge rst) begin
+    always@(posedge clk) begin
         if(rst)
             store_MTJ <= 1'b0;
         else begin
@@ -47,7 +47,7 @@ module nonvolatile_ff(
     
     
     //read process in the MTJ corresponding to the singal read_mtj
-    always@(posedge clk,negedge rst) begin
+    always@(posedge clk) begin
         if(rst) 
             q <= 1'b0;
         else begin

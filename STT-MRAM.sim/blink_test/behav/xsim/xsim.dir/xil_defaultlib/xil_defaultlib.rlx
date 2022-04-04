@@ -2,11 +2,13 @@
 2018.2
 Jun 14 2018
 20:41:02
-C:/Users/Uqdxz/Desktop/MA/MA_process/MA_Process/MA_blif_parser/verilog/adder.v,1648545728,verilog,,C:/Users/Uqdxz/Desktop/MA/MA_process/MA_Process/MA_blif_parser/verilog/blink.output.v,,adder,,,,,,,,
+C:/Users/Uqdxz/Desktop/MA/MA_process/MA_Process/MA_blif_parser/verilog/adder.v,1648635007,verilog,,C:/Users/Uqdxz/Desktop/MA/MA_process/MA_Process/MA_blif_parser/verilog/blink.output.v,,adder,,,,,,,,
 C:/Users/Uqdxz/Desktop/MA/MA_process/MA_Process/MA_blif_parser/verilog/blink.output.v,1648546696,verilog,,C:/Users/Uqdxz/Desktop/MA/MA_process/MA_Process/MA_blif_parser/verilog/blink.v,,blink_new,,,,,,,,
-C:/Users/Uqdxz/Desktop/MA/MA_process/MA_Process/MA_blif_parser/verilog/blink.v,1648545771,verilog,,C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/blink_test/new/test_blink.v,,blink,,,,,,,,
+C:/Users/Uqdxz/Desktop/MA/MA_process/MA_Process/MA_blif_parser/verilog/blink.output3.v,1648928639,verilog,,C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/blink_test/new/test_blink.v,,blink_new3,,,,,,,,
+C:/Users/Uqdxz/Desktop/MA/MA_process/MA_Process/MA_blif_parser/verilog/blink.v,1648545771,verilog,,C:/Users/Uqdxz/Desktop/MA/MA_process/MA_Process/MA_blif_parser/verilog/blink.output3.v,,blink,,,,,,,,
+C:/Users/Uqdxz/Desktop/MA/MA_process/MA_Process/MA_blif_parser/verilog/output3.v,1648896180,verilog,,C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/blink_test/new/test_blink.v,,blink3,,,,,,,,
 C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.sim/blink_test/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
-C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/blink_test/new/test_blink.v,1648557290,verilog,,,,test_blink,,,,,,,,
-C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/sources_1/new/Nonvolatile_FF.v,1648557367,verilog,,C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/sources_1/new/volatile_ff.v,,nonvolatile_ff,,,,,,,,
+C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/blink_test/new/test_blink.v,1648986259,verilog,,,,test_blink,,,,,,,,
+C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/sources_1/new/Nonvolatile_FF.v,1648978854,verilog,,C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/sources_1/new/volatile_ff.v,,nonvolatile_ff,,,,,,,,
 C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/sources_1/new/volatile_ff.v,1646558842,verilog,,C:/Users/Uqdxz/Desktop/MA/MA_process/MA_Process/MA_blif_parser/verilog/adder.v,,volatile_ff,,,,,,,,
 C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/sources_1/new/wr_rd_controller.v,1648557374,verilog,,C:/Users/Uqdxz/Desktop/MA/STT_MRAM_git/454/STT-MRAM.srcs/sources_1/new/Nonvolatile_FF.v,,wr_rd_controller,,,,,,,,

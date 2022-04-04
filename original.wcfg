@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_blink_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_blink" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="277540000000fs"></ZoomStartTime>
+      <ZoomEndTime time="306300000001fs"></ZoomEndTime>
+      <Cursor1Time time="301500000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="102"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wave_markers>
+      <marker time="281500000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/test_blink/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_blink/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_blink/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_blink/rd" type="logic">
+      <obj_property name="ElementShortName">rd</obj_property>
+      <obj_property name="ObjectShortName">rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_blink/o_led" type="logic">
+      <obj_property name="ElementShortName">o_led</obj_property>
+      <obj_property name="ObjectShortName">o_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_blink/blink0/\blink^r_counter~0_FF " type="logic">
+      <obj_property name="ElementShortName">\blink^r_counter~0_FF </obj_property>
+      <obj_property name="ObjectShortName">\blink^r_counter~0_FF </obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_blink/blink0/\blink^r_counter~1_FF " type="logic">
+      <obj_property name="ElementShortName">\blink^r_counter~1_FF </obj_property>
+      <obj_property name="ObjectShortName">\blink^r_counter~1_FF </obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_blink/blink0/\blink^r_counter~2_FF " type="logic">
+      <obj_property name="ElementShortName">\blink^r_counter~2_FF </obj_property>
+      <obj_property name="ObjectShortName">\blink^r_counter~2_FF </obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_blink/blink0/\blink^r_counter~3_FF " type="logic">
+      <obj_property name="ElementShortName">\blink^r_counter~3_FF </obj_property>
+      <obj_property name="ObjectShortName">\blink^r_counter~3_FF </obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_blink/blink0/\blink^r_counter~4_FF " type="logic">
+      <obj_property name="ElementShortName">\blink^r_counter~4_FF </obj_property>
+      <obj_property name="ObjectShortName">\blink^r_counter~4_FF </obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_blink/blink0/_04_/store_MTJ" type="logic">
+      <obj_property name="ElementShortName">store_MTJ</obj_property>
+      <obj_property name="ObjectShortName">store_MTJ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_blink/blink0/_03_/store_MTJ" type="logic">
+      <obj_property name="ElementShortName">store_MTJ</obj_property>
+      <obj_property name="ObjectShortName">store_MTJ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_blink/blink0/_10_/store_MTJ" type="logic">
+      <obj_property name="ElementShortName">store_MTJ</obj_property>
+      <obj_property name="ObjectShortName">store_MTJ</obj_property>
+   </wvobject>
+</wave_config>

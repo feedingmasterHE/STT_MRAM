@@ -6,6 +6,7 @@ verilog xil_defaultlib  \
 "../../../../../../MA_process/MA_Process/MA_blif_parser/verilog/adder.v" \
 "../../../../../../MA_process/MA_Process/MA_blif_parser/verilog/blink.output.v" \
 "../../../../../../MA_process/MA_Process/MA_blif_parser/verilog/blink.v" \
+"../../../../../../MA_process/MA_Process/MA_blif_parser/verilog/blink.output3.v" \
 "../../../../STT-MRAM.srcs/blink_test/new/test_blink.v" \
 
 # compile glbl module
