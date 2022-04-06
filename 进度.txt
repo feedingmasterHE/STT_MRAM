@@ -54,3 +54,10 @@ Masterarbeitsvorgang
   29-30.03.2022
    1. already tried with yosys to convert blif file to the verilog file with small sample of blink.v
    2. simulated in the vivado ISE and found the difference by replacing the nonvolatile_ff
+   
+   
+05.04.2022
+1. source code von yosys zu verändern, um latches mit Reset zu convertieren
+2. XML noch zu verändern. Das Submodel von hybride FF kann ohne Reset,write und read Signale bei dem Layout aufbauen.
+3. Parser noch verändern, die BLIF datei ohne globale Signale für VPR zu erstellen und noch die Datei mit globale Signale für Simulation und test zu erstellen.
+4. Falls noch zeit habe, die Doku einfach anzufangen und auch die Simulation und testen für größere Design.
